@@ -1,6 +1,7 @@
 package springcore;
 
 import org.springframework.context.ApplicationContext;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import springcore.Student;
 
@@ -13,8 +14,9 @@ public class SpringDemo {
 		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");	
         Object student1 = context.getBean("student1");
         System.out.println(student1);
-        //student1.display();
         
+        Object student2 = context.getBean("student2");
+        System.out.println(student2);
 	}
 
 }
