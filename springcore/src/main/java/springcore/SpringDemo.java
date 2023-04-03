@@ -17,6 +17,9 @@ public class SpringDemo {
         
         Object student2 = context.getBean("student2");
         System.out.println(student2);
+        
+        Object student3 = context.getBean("student3");
+        System.out.println(student3);
 	}
 
 }

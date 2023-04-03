@@ -9,16 +9,11 @@
   http://www.springframework.org/schema/context
   http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id ="student1" class="springcore.Student" name="student1">
-		<property name="studentID" value="1201" />
-		<property name="studentName" value="Akshada Shinde" />
-		<property name="studentAddress" value="Pune" />
-	</bean>
+	<bean id ="student1" class="springcore.Student" name="student1" p:studentID="1201" p:studentName="Akshada Shinde" p:studentAddress="Pune"  />
 	
-	<bean id ="student2" class="springcore.Student" name="student2">
-		<property name="studentID" value="1202" />
-		<property name="studentName" value="Pranali Badgujar" />
-		<property name="studentAddress" value="Dhule" />
-	</bean>
+	<bean id ="student2" class="springcore.Student" name="student2" p:studentID="1202" p:studentName="Vaishnavi Bhoyar" p:studentAddress="Nagpur"  />
+		
+	<bean id ="student3" class="springcore.Student" name="student3" p:studentID="1203" p:studentName="Pranali Badgujar" p:studentAddress="Dhule"  />
+
 
 </beans>
