@@ -34,6 +34,14 @@
 				<entry key="Software Testing" value="3 Month" />
 			</map>
 		</property>
+		
+		<property name="props">
+		
+		<props >
+		<prop key = "name"> Akshada Shinde </prop>
+		<prop key="designation"> Developer</prop>
+		 </props>
+		</property>
 	</bean>
 
 </beans>
