@@ -14,11 +14,12 @@
 	</bean>
 	
 	
-	<bean class = "com.springcore.ref.A" name="aref">
-	<property name="x" value = "50" />
+	<bean class = "com.springcore.ref.A" name="aref" p:x="230" p:b-ref="bref" />
+	
+	<!-- <property name="x" value = "50" />
 	<property name="b">
 	<ref bean="bref"></ref>
 	</property>
 	
-	</bean>
+	</bean> -->
 </beans>
